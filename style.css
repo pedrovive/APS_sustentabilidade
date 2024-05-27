@@ -1,0 +1,51 @@
+:root {
+    --cor-texto: #707070;
+    --cor-section: #707070 ;
+} 
+
+#header {
+    background-image: url(imagens/catavento_cut2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+span {
+    color: var(--cor-texto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand, .navbar-brand:hover {
+    color: var(--cor-texto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header, #home {
+    background-color: #eaf9f9;
+}
+
+.p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo-projeto {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projeto {
+    border: 0.5px solid gray;
+    border-radius: 2.5%;
+    padding: 10px;
+}
+
+.contato ul li {
+    list-style: none;
+}
+
+.lista-ref {
+    list-style: none;
+    text-align: center;
+}
